@@ -1,0 +1,133 @@
+.features {
+  background: #f2f6fa;
+  text-align: center;
+  padding-top: 95px;
+  height: 1117px;
+}
+.features h1 {
+  padding-bottom: 106px;
+}
+.chain h5 {
+  padding-top: 14px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+  /* identical to box height, or 73% */
+
+  text-align: center;
+
+  color: #232323;
+}
+.chain p {
+  padding-top: 8px;
+}
+.chain2 p {
+  padding-top: 8px;
+}
+.feat-btn {
+  background: #fbc516;
+  border-radius: 4px;
+  margin-bottom: 51px;
+  margin-top: 24px;
+}
+.feat-btn:hover {
+  background: rgb(238, 238, 128);
+  color: black;
+  cursor: pointer;
+}
+.chain {
+  display: flex;
+
+  justify-content: center;
+}
+.chain2 {
+  display: flex;
+  margin-top: 64px;
+  justify-content: center;
+}
+.chain2 h5 {
+  padding-top: 14px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #232323;
+}
+.chain-card {
+  width: 335px;
+  height: 351px;
+  background: #c7efca;
+  border-radius: 8px;
+}
+.chain-card1 {
+  width: 335px;
+  height: 351px;
+  margin-left: 100px;
+  background: #90e6f0;
+  border-radius: 8px;
+}
+.chain2-card {
+  width: 335px;
+  height: 351px;
+  background: #ffe7ac;
+  border-radius: 8px;
+}
+.chain2-card1 {
+  width: 335px;
+  height: 351px;
+  margin-left: 100px;
+  background: #fadadd;
+  border-radius: 8px;
+}
+.card-icon {
+  margin-top: 40px;
+  width: 131.56px;
+  height: 115px;
+}
+
+/*================= MEDIA QUERIES (SMALL DEVICES) ============= */
+@media screen and (max-width: 900px) {
+  .features {
+    width: 100%;
+    height: 1900px;
+  }
+  .features h1 {
+    font-weight: 600;
+    font-size: 25px;
+    width: 380px;
+    line-height: 33px;
+  }
+  .chain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chain2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .chain-card {
+    width: 300px;
+    border-radius: 8px;
+    height: 351px;
+  }
+  .chain-card1 {
+    width: 300px;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .chain2-card {
+    border-radius: 8px;
+    height: 351px;
+    margin-left: 45px;
+    width: 300px;
+  }
+  .chain2-card1 {
+    margin-left: 45px;
+    width: 300px;
+    margin-top: 30px;
+  }
+}
